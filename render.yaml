@@ -3,7 +3,7 @@ services:
     name: cybercrime-detector
     env: python
     branch: main
-    runtime: python-3.10
+    runtime: python310
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run cc.py --server.port=10000
     plan: free
